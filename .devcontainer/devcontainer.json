@@ -15,7 +15,7 @@
       }
     }
   },
-  "forwardPorts": [8080]
+  "forwardPorts": [8080],
 
-//   "postStartCommand": "dotnet watch --project src/MyApi/MyApi.csproj run --urls http://0.0.0.0:8080"
+  "postStartCommand": "dotnet watch --project src/MyApi/MyApi.csproj run --urls http://0.0.0.0:8080"
 }
