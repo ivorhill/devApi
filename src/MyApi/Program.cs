@@ -35,6 +35,8 @@ app.MapGet("/weatherforecast", () =>
 
 app.MapGet("/health", () => Results.Ok(new { status = "ok", time = DateTime.UtcNow }));
 
+app.MapGet("/test", () => Results.Ok(new { status = "ok", time = DateTime.UtcNow }));
+
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
