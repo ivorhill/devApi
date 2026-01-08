@@ -1,0 +1,21 @@
+{
+  "name": ".NET 10 API Dev",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp",
+        "ms-azuretools.vscode-docker"
+      ],
+      "settings": {
+        "explorer.compactFolders": false
+      }
+    }
+  },
+  "forwardPorts": [8080]
+
+//   "postStartCommand": "dotnet watch --project src/MyApi/MyApi.csproj run --urls http://0.0.0.0:8080"
+}

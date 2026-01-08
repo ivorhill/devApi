@@ -1,0 +1,14 @@
+# Build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+
+# Logs
+*.log
+
+# Optional: local secrets
+appsettings.Development.json
+secrets.json
